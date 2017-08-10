@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init": "selenium-standalone install",
     "test": "wdio wdio.conf.js",
     "serve": "allure serve",
     "generate": "allure generate --clean"
