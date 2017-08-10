@@ -1,0 +1,22 @@
+{
+  "name": "node-selenium-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "serve": "allure serve",
+    "generate": "allure generate --clean"
+  },
+  "author": "Ryan Park",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.3.3",
+    "wdio-allure-reporter": "^0.1.2",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-selenium-standalone-service": "0.0.9"
+  }
+}
